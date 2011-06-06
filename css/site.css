@@ -1,0 +1,9 @@
+body#index { text-align: center; }
+body#index section, body#index footer { margin-left: auto; margin-right: auto; }
+body#index section { width: 436px; }
+body#index h1 { background: url('../images/gr8labs-logo.png') no-repeat center top;
+  width: 128px; height: 128px; margin-left: auto; margin-right: auto; }
+body#index h1 span { display: none; }
+body#index p { margin-top: 40px; }
+body#index h3 { color: #808080; }
+
