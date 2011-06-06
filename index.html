@@ -29,6 +29,8 @@ def message = '''
 
 println message.stripIndent()
 
+// Enhance String class with launching() method
+// to always return 'Launching Soon'.
 String.metaClass.launching { delegate -&gt; "Launching Soon" }
 
 assert 'gr8labs'.launching() == 'Launching Soon'
