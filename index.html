@@ -16,22 +16,30 @@
 	<body lang="en" id="index">
 
 	    <section>
-	    <header>
-        <h1><span>Gr8Labs</span></h1>
-        </header>
+            <header>
+            <h1><span>Gr8Labs</span></h1>
+            </header>
 
-        <p>
-        Gr8Labs.org is a website dedicated to teach people about
-        Groovy and Groovy related technologies by showing a lot of sample code.
-        </p>
+            <pre>
+def message = '''
+    Gr8Labs.org is a website dedicated to teach people about
+    Groovy and Groovy related technologies
+    by showing a lot of sample code.
+'''
 
-        <h3>Launching Soon</h3>
+println message.stripIndent()
+
+String.metaClass.launching { delegate -&gt; "Launching Soon" }
+
+assert 'gr8labs'.launching() == 'Launching Soon'
+            </pre>
 
         </section>
 
         <footer>
         <p>
-        Follow <a href="http://twitter.com/#!/gr8labsorg">gr8labsorg</a> on Twitter
+            Follow gr8labsorg on <a href="http://twitter.com/#!/gr8labsorg">Twitter</a>
+            and <a href="https://github.com/gr8labsorg">GitHub</a>
         </p>
         </footer>
 
