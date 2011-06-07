@@ -33,15 +33,14 @@ pre.code:after {
 	transform: skew(5deg) rotate(5deg);
 }
 
+section, footer { clear: both; }
 
 body#index { margin: 0; padding: 48px 0 72px 0; width: 100%; }
 body#index header { margin-bottom: 40px; }
 body#index section, body#index footer { width: 712px; margin: 0px auto; }
-body#index h1 { background: url('../images/gr8labs-logo.png') no-repeat center top;
-  width: 128px; height: 128px; margin-left: auto; margin-right: auto; }
-body#index h1 span { display: none; }
 body#index p { margin-top: 40px; }
 body#index h3 { color: #808080; }
 body#index footer { margin-top: 40px; }
 body#index footer ul li { list-style: none; }
+body#index p.logo { float: right; }
 
