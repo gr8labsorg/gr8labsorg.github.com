@@ -95,6 +95,7 @@ body {
 	color: rgb(60,60,60);
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
+pre.big { display: block; }
 
 
 
@@ -112,6 +113,7 @@ px      68    160    252    344    436    528    620    712    */
 		width: 712px;
 		padding: 48px 28px 60px;
 	}
+        pre.big { display: block; }
 }
 
 
@@ -130,7 +132,8 @@ px      68    160    252    */
 		width: 252px;
 		padding: 48px 34px 60px;
 	}
-
+        pre.big { display: none; }
+        pre.small { display: block !important; }
 }
 
 
@@ -149,6 +152,8 @@ px      68    160    252    344    436    */
 		width: 436px;
 		padding: 36px 22px 48px;
 	}
+        pre.big { display: none; }
+        pre.small { display: block !important; }
 
 }
 
