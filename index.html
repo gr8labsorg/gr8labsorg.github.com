@@ -7,7 +7,9 @@
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" media="all" href="css/less.css"/>
+        <link href="favicon.ico" rel="shortcut icon"/>
+        <link href="images/favicon.png" rel="shortcut icon" type="image/png"/>
+        <link rel="stylesheet" media="all" href="css/less.css"/>
 		<link rel="stylesheet" media="all" href="css/site.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
@@ -36,25 +38,25 @@ assert 'gr8labs'.launching() == 'Launching Soon'
 
             <pre class="code small">
 def message = '''
-    Gr8Labs.org is a website 
-    dedicated to teach people 
-    about Groovy and 
-    Groovy related 
-    technologies by showing 
+    Gr8Labs.org is a website
+    dedicated to teach people
+    about Groovy and
+    Groovy related
+    technologies by showing
     a lot of sample code.
 '''
 
 println message.stripIndent()
 
-// Enhance String class with 
-// launching() method to 
-// always return 
+// Enhance String class with
+// launching() method to
+// always return
 // 'Launching Soon'.
-String.metaClass.launching {-&gt; 
-    "Launching Soon" 
+String.metaClass.launching {-&gt;
+    "Launching Soon"
 }
 
-assert 'gr8labs'.launching() 
+assert 'gr8labs'.launching()
        == 'Launching Soon'
         </pre>
 
