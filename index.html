@@ -15,6 +15,7 @@
 
 	<body lang="en" id="index">
 
+            <section>
             <pre class="code">
 def message = '''
     Gr8Labs.org is a website dedicated to teach people about
@@ -29,7 +30,7 @@ println message.stripIndent()
 String.metaClass.launching { delegate -&gt; "Launching Soon" }
 
 assert 'gr8labs'.launching() == 'Launching Soon'
-            </pre>
+        </pre>
 
         </section>
 
