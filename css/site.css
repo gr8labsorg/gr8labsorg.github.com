@@ -94,9 +94,8 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 
-	body {		
-		padding: 48px 5px 60px;
-	}
+	body { padding: 12px 5px 60px; }
+        pre { padding: 12px 6px; }
         body#index section, body#index footer { width: 252px; } 
         body#index pre.big { display: none; }
         body#index pre.small { display: block; }
@@ -117,9 +116,8 @@ px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-	body {		
-		padding: 36px 22px 48px;
-	}
+	body { padding: 12px 22px 48px; }
+        pre { padding: 12px 24px; }
         body#index section, body#index footer { width: 436px; } 
 }
 
