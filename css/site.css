@@ -40,5 +40,6 @@ body#index section, body#index footer { width: 712px; margin: 0px auto; }
 body#index section { margin-top: 40px; }
 body#index h3 { color: #808080; }
 body#index footer { margin-top: 40px; }
+body#index footer p { display: inline; }
 body#index p.logo { float: right; }
 
