@@ -120,8 +120,6 @@ px      68    160    252    344    436    */
 		padding: 36px 22px 48px;
 	}
         body#index section, body#index footer { width: 436px; margin: 0px auto; } 
-        body#index pre.big { display: block; }
-        body#index pre.small { display: none; }
 }
 
 
