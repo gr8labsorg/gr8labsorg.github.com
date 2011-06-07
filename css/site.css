@@ -42,6 +42,6 @@ body#index h3 { color: #808080; }
 body#index footer { margin-top: 40px; }
 body#index footer p { display: inline; }
 body#index p.logo { float: right; }
-body#index pre.small { width: 252px; display: none; }
+body#index pre.small { display: none; }
 
 
