@@ -97,7 +97,7 @@ px      68    160    252    */
 	body {		
 		padding: 48px 5px 60px;
 	}
-        body#index section, body#index footer { width: 252px; margin: 0px auto; } 
+        body#index section, body#index footer { width: 252px; } 
         body#index pre.big { display: none; }
         body#index pre.small { display: block; }
         body#index footer p.logo { float: none; }
@@ -119,7 +119,7 @@ px      68    160    252    344    436    */
 	body {		
 		padding: 36px 22px 48px;
 	}
-        body#index section, body#index footer { width: 436px; margin: 0px auto; } 
+        body#index section, body#index footer { width: 436px; } 
 }
 
 
