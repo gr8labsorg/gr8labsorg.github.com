@@ -37,9 +37,9 @@ def message = '''
     Gr8Labs.org is a website 
     dedicated to teach people 
     about Groovy and 
-    Groovy related technologies
-    by showing a lot of 
-    sample code.
+    Groovy related 
+    technologies by showing 
+    a lot of sample code.
 '''
 
 println message.stripIndent()
@@ -48,12 +48,12 @@ println message.stripIndent()
 // launching() method to 
 // always return 
 // 'Launching Soon'.
-String.metaClass.launching { -&gt; 
+String.metaClass.launching {-&gt; 
     "Launching Soon" 
 }
 
-assert 'gr8labs'.launching() == 
-       'Launching Soon'
+assert 'gr8labs'.launching() 
+       == 'Launching Soon'
         </pre>
 
         </section>
