@@ -36,7 +36,7 @@ pre.code:after {
 section, footer { clear: both; }
 
 body { margin: 0; padding: 48px 0 72px 0; }
-body#index section, body#index footer { width: 712px; margin: 0px auto; } 
+body#index section, body#index footer { width: 712px; margin: 0px auto; }
 body#index section { margin-top: 40px; }
 body#index h3 { color: #808080; }
 body#index footer { margin-top: 40px; }
@@ -55,7 +55,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 body { padding: 72px 48px 84px; }
 body {
 	background: rgb(232,232,232);
-	background-image: url('http://www.mrhaki.com/images/bg_lightgrey.png');
+	background-image: url('../images/bg_lightgrey.png');
 	color: rgb(60,60,60);
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
@@ -90,7 +90,7 @@ px      68    160    252    */
 
 	body { padding: 12px 5px 60px; }
         pre { padding: 12px 6px; }
-        body#index section, body#index footer { width: 252px; } 
+        body#index section, body#index footer { width: 252px; }
         body#index pre.big { display: none; }
         body#index pre.small { display: block; }
         body#index footer p.logo { float: none; }
@@ -112,7 +112,7 @@ px      68    160    252    344    436    */
 
 	body { padding: 12px 22px 48px; }
         pre { padding: 12px 24px; }
-        body#index section, body#index footer { width: 436px; } 
+        body#index section, body#index footer { width: 436px; }
 }
 
 
