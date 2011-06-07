@@ -32,6 +32,25 @@ String.metaClass.launching { delegate -&gt; "Launching Soon" }
 assert 'gr8labs'.launching() == 'Launching Soon'
         </pre>
 
+            <pre class="code small">
+def message = '''
+    Gr8Labs.org is a website 
+    dedicated to teach people about
+    Groovy and Groovy related technologies
+    by showing a lot of sample code.
+'''
+
+println message.stripIndent()
+
+// Enhance String class with launching() method
+// to always return 'Launching Soon'.
+String.metaClass.launching { delegate -&gt; 
+    "Launching Soon" 
+}
+
+assert 'gr8labs'.launching() == 'Launching Soon'
+        </pre>
+
         </section>
 
         <footer>
