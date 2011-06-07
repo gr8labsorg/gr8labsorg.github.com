@@ -125,10 +125,11 @@ px      68    160    252    */
 		width: 252px;
 		padding: 48px 34px 60px;
 	}
+        body#index section, body#index footer { width:100%; margin: 0px auto; } 
         body#index pre.big { display: none; }
         body#index pre.small { display: block !important; }
-        body#index footer p.logo { float: none; }
-        body#index footer p { display: block; }
+        body#index footer p.logo { float: none !important; }
+        body#index footer p { display: block !important; }
 }
 
 
@@ -147,8 +148,11 @@ px      68    160    252    344    436    */
 		width: 436px;
 		padding: 36px 22px 48px;
 	}
+        body#index section, body#index footer { width:100%; margin: 0px auto; } 
         body#index pre.big { display: none; }
         body#index pre.small { display: block !important; }
+        body#index footer p.logo { float: none !important; }
+        body#index footer p { display: block !important; }
 
 }
 
