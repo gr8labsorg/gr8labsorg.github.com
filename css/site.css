@@ -102,6 +102,7 @@ px      68    160    252    */
         body#index pre.small { display: block; }
         body#index footer p.logo { float: none; }
         body#index footer p { display: block; }
+        body#index footer p.logo { margin-top: 20px; }
 }
 
 
