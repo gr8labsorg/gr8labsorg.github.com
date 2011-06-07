@@ -36,7 +36,7 @@ pre.code:after {
 section, footer { clear: both; }
 
 body#index { margin: 0; padding: 48px 0 72px 0; width: 100%; }
-body#index section, body#index footer { width: 712px; margin: 0px auto; }
+body#index section, body#index footer { margin: 0px auto; } /* width: 712px;*/
 body#index section { margin-top: 40px; }
 body#index h3 { color: #808080; }
 body#index footer { margin-top: 40px; }
