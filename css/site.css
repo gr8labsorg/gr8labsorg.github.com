@@ -52,10 +52,7 @@ body#index pre.small { display: none; }
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
-body {
-	width: 896px;
-	padding: 72px 48px 84px;
-}
+body { padding: 72px 48px 84px; }
 body {
 	background: rgb(232,232,232);
 	background-image: url('http://www.mrhaki.com/images/bg_lightgrey.png');
@@ -75,10 +72,7 @@ px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-	body {
-		width: 712px;
-		padding: 48px 28px 60px;
-	}
+	body { padding: 48px 28px 60px; }
         body#index pre.big { display: block; }
 }
 
