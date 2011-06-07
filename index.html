@@ -17,12 +17,8 @@
 
 	<body lang="en" id="index">
 
-	    <section>
-            <header>
-            <h1><span>Gr8Labs</span></h1>
-            </header>
-
-            <pre class="code">
+            <section>
+            <pre class="code big">
 def message = '''
     Gr8Labs.org is a website dedicated to teach people about
     Groovy and Groovy related technologies
@@ -33,10 +29,34 @@ println message.stripIndent()
 
 // Enhance String class with launching() method
 // to always return 'Launching Soon'.
-String.metaClass.launching { delegate -&gt; "Launching Soon" }
+String.metaClass.launching { -&gt; "Launching Soon" }
 
 assert 'gr8labs'.launching() == 'Launching Soon'
-            </pre>
+        </pre>
+
+            <pre class="code small">
+def message = '''
+    Gr8Labs.org is a website 
+    dedicated to teach people 
+    about Groovy and 
+    Groovy related 
+    technologies by showing 
+    a lot of sample code.
+'''
+
+println message.stripIndent()
+
+// Enhance String class with 
+// launching() method to 
+// always return 
+// 'Launching Soon'.
+String.metaClass.launching {-&gt; 
+    "Launching Soon" 
+}
+
+assert 'gr8labs'.launching() 
+       == 'Launching Soon'
+        </pre>
 
         </section>
 
@@ -44,6 +64,9 @@ assert 'gr8labs'.launching() == 'Launching Soon'
         <p>
             Follow gr8labsorg on <a href="http://twitter.com/#!/gr8labsorg">Twitter</a>
             and <a href="https://github.com/gr8labsorg">GitHub</a>
+        </p>
+        <p class="logo">
+            <img src="images/gr8labs-logo.png" width="64" height="64" class="logo"/>
         </p>
         </footer>
 
