@@ -127,8 +127,8 @@ px      68    160    252    */
 	}
         body#index pre.big { display: none; }
         body#index pre.small { display: block !important; }
-        body#index footer p { display: block; }
         body#index footer p.logo { float: none; }
+        body#index footer p { display: block; }
 }
 
 
@@ -147,7 +147,9 @@ px      68    160    252    344    436    */
 		width: 436px;
 		padding: 36px 22px 48px;
 	}
-        body#index pre.big { display: block; width: 436px; }
+        body#index pre.big { display: none; }
+        body#index pre.small { display: block !important; }
+
 }
 
 
