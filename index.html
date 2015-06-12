@@ -31,9 +31,9 @@ println message.stripIndent()
 
 // Enhance String class with launching() method
 // to always return 'Launching Soon'.
-String.metaClass.launching { -&gt; "Launching Soon" }
+String.metaClass.launching { -&gt; "$delegate Launching Soon" }
 
-assert 'gr8labs'.launching() == 'Launching Soon'
+assert 'gr8labs'.launching() == 'gr8labs Launching Soon'
         </pre>
 
             <pre class="code small">
